@@ -1,0 +1,56 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Header */
+header {
+    background-color: #ff4081;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Botón principal */
+.btn-primary {
+    background-color: #ff4081;
+    border: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+    transform: scale(1.1);
+}
+
+/* Animación para agregar al carrito */
+.agregar-carrito {
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.agregar-carrito:hover {
+    background-color: #28a745;
+    transform: scale(1.05);
+}
+
+.btn-animado {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Carrito */
+#carrito {
+    margin-top: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: 200px; /* Puedes ajustar la altura según lo necesites */
+    object-fit: cover; /* Hace que la imagen se ajuste y mantenga su aspecto */
+}
